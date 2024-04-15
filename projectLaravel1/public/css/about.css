@@ -1,0 +1,16 @@
+body{
+    height: 100vh;
+}
+.friend-block{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+.friend-block img{
+    max-height: 400px;
+    max-width: 500px;
+    width: 100%;
+    height: 100%;
+}
