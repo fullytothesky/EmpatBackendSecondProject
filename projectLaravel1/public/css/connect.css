@@ -7,7 +7,8 @@ form{
     background-color: transparent!important;
 }
 .content{
-    background-color: rgb(58, 56, 56) !important;
+    background-color: rgba(58, 56, 56,0.7) !important;
+    border-radius: 20px;
 }
 .form__input{
     display: flex;
@@ -25,14 +26,21 @@ h3{
 }
 input{
     height: 30px;
+    background-color: rgba(255, 255, 255, 0.2) !important;
+    border-radius: 10px;
+}
+.input_img{
+background-color: transparent!important;
+
 }
 button{
     margin-top: 10px;
     background-color: #bb1b1b;
     border-style: none;
     padding: 15px;
-    width: 90px;
+    /*width: 90px;*/
     border-radius: 20px;
     color: white;
     font-weight: bold;
+    font-size: 25px;
 }
