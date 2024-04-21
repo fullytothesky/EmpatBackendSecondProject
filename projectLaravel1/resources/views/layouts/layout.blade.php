@@ -9,19 +9,23 @@
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
-    <link href="/css/layout.css" rel="stylesheet" >
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap"
+        rel="stylesheet">
+    <link href="/css/layout.css" rel="stylesheet">
 
 
 </head>
 <body>
 
-<header><h1>Empat School</h1></header>
+<header>
+    <h1><a class="header-link-main" href={{route('welcome')}}>Empat School</a></h1>
+    <a class="header-link-friend" href="{{route('connect')}}">Add a new Friend</a>
+</header>
 
-    @yield('container')
+@yield('container')
 
-<footer><h1>Second Backend Laravel Project</h1></footer>
+<footer><h1>Third Backend Laravel Project</h1></footer>
 </body>
-
 
 </html>
